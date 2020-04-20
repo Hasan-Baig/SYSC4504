@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Assignment 1</title>
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="assignment1.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Share Your Travels</h1>
+    <p>let us know where you've been</p>
+  </header>
+  <main>
+    <section>
+      <form method="post" action="http://www.randyconnolly.com/tests/process.php">
+        <fieldset>
+          <legend>PHOTO DETAILS</legend>
+
+          <table>
+            <tr>
+              <td colspan="2">
+                <p>
+                  <label for="f-title">Title</label><br />
+                  <input type="text" name="title" id="f-title" placeholder="Give your photo a descriptive name" />
+                </p>
+                <p>
+                  <label for="f-description">Description</label><br />
+                  <textarea name="description" id="f-description" rows="5" cols="80" placeholder="Adding a rich description will help with search results"></textarea>
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td rowspan="2">
+                <p>
+                  <label for="f-continent">Continent</label><br />
+                  <select name="continent" id="f-continent">
+                    <option selected>Choose continent</option>
+                    <option>North America</option>
+                    <option>South America</option>
+                    <option>Europe</option>
+                    <option>Asia</option>
+                    <option>Africa</option>
+                    <option>Austraila/Oceania</option>
+                    <option>Antarctica</option>
+                  </select>
+                </p>
+                <p>
+                  <label for="f-country">Country</label><br />
+                  <select name="country" id="f-country">
+                    <option selected>Choose country</option>
+                    <option>Afganistan</option>
+                    <option>Canada</option>
+                    <option>USA</option>
+                    <option>Vietnam</option>
+                    <option>Yemen</option>
+                    <option>Zambia</option>
+                    <option>Zimbabwe</option>
+                  </select>
+                </p>
+                <p>
+                  <label for="f-city">City</label><br />
+                  <input type="text" name="city" id="f-city" />
+                </p>
+              </td>
+              <td class="border">
+                <p>
+                  <label for="f-copyright">Copyright?</label><br />
+                  <input type="radio" name="copyright" id="f-copyright" value="1">All rights reserved<br />
+                  <input type="radio" name="copyright" id="f-copyright" value="2" checked>Creative Commons
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="border">
+                <p>
+                  <label for="f-cc">Creative Commons Types</label><br />
+                  <input type="checkbox" name="cc[]" id="f-cc" value="1">Attribution<br />
+                  <input type="checkbox" name="cc[]" id="f-cc" value="2">Noncommercial<br />
+                  <input type="checkbox" name="cc[]" id="f-cc" value="3">No Derivative Works
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td colspan="2" class="fill">
+                <p>
+                  <label for="f-accept">I accept the software licence</label>
+                  <input type="checkbox" name="accept" id="f-accept" value="on">
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <p>
+                  <label for="f-rate">Rate this photo: </label><br />
+                  <input type="number" min="1" max="10" name="rate" id="f-rate">
+                </p>
+                <p>
+                  <label for="f-color">Color Collection: </label><br />
+                  <input type="color" name="color" id="f-color">
+                </p>
+              </td>
+              <td class="border">
+                <p>
+                  <label for="f-date">Date Taken: </label><br />
+                  <input type="date" name="date" id="f-date"><br />
+                  <label for="f-time">Time Taken: </label><br />
+                  <input type="time" name="time" id="f-time">
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td colspan="2" class="fill">
+                <p>
+                  <button type="submit" id="f-submit">Submit</button>
+                  <button type="reset" name="reset" id="f-reset">Clear Form</button>
+                </p>
+              </td>
+            </tr>
+          </table>
+
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+</body>
+
+</html>

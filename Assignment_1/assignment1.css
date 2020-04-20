@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+/* general text formatting */
+h1, h2, h3, nav, footer {
+  font-family: Lobster, Cambria, "Times New Roman", serif;
+}
+
+body {
+  font-family: "Open Sans", Verdana, Arial, sans-serif;
+  font-size: 100%;
+  background-color: #E8EAF6;
+}
+
+/* header and navigation */
+header, footer {
+  color: white;
+  background-color: #1A237E;
+  margin: 0em 4em 0.25em 4em;
+}
+
+header h1 {
+  padding: 0.5rem 0 0 1.25rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 1rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+  padding: 0 0 0 1.25rem;
+}
+
+/* main article styling */
+main {
+  background-color: white;
+  margin: 1em 4em 1em 4em;
+  padding: 1em;
+}
+
+section {
+  margin-bottom: 1em;
+  padding: 0;
+  width: 100%;
+}
+
+legend {
+  font-size: 1.35rem;
+  background-color: #7986CB;
+  height: 1.70rem;
+  color: #E8EAF6;
+  text-transform: uppercase;
+  width: 100%;
+  margin: 0;
+  padding: 5px 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  background-color: #C5CAE9;
+  width: 100%;
+  border: none;
+}
+
+form p {
+  margin-top: 0.5em;
+}
+
+table {
+  margin: 0.5em;
+  padding-right: 1em;
+  height: auto;
+  width: 100%;
+}
+
+td.border>p {
+  padding: 0.5em;
+  border: solid 1pt #7986CB;
+}
+
+td.fill>p {
+  padding: 0.5em;
+  background-color: #9DA9D7;
+}
+
+#f-title {
+  height: 1.50rem;
+  width: 100%;
+}
+
+#f-description {
+  width: 100%;
+}
+
+#f-continent {
+  height: 1.50rem;
+  width: 75%;
+}
+
+#f-country {
+  height: 1.50rem;
+  width: 75%;
+}
+
+#f-city {
+  height: 1.50rem;
+  width: 75%;
+}
+
+#f-rate {
+  width: 50px;
+  height: 1.50rem;
+}
+
+button {
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  margin-right: 0.5em;
+  background-color: deeppink;
+  width: 5rem;
+  height: 2rem;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.2);
+}
