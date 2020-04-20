@@ -1,6 +1,6 @@
 # SYSC4504 - Fundamentals of Web Development
 
-This Repository contains all Labs, Assignments and Worksheets completed for the **Fundamentals of Web Development** course. 
+This Repository contains all Labs and Assignments completed for the **Fundamentals of Web Development** course. 
 
 This course entails the following:
 
